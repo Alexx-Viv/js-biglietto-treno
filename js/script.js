@@ -12,11 +12,11 @@ var sale = "";
 if (tripLenght > 0 && userAge > 0) {
   tripPrice = tripLenght * 0.21;
   console.log(tripPrice);
-  if (userAge <= 18) {
+  if (userAge < 18) {
     tripPrice = (tripPrice * 4) / 5;
     console.log(tripPrice);
     sale = "grazie ad uno sconto del 20% sul prezzo originale";
-  } else if (userAge >= 65) {
+  } else if (userAge > 65) {
     tripPrice = (tripPrice * 2) / 5;
     console.log(tripPrice);
     sale = "grazie ad uno sconto del 60% sul prezzo originale";
