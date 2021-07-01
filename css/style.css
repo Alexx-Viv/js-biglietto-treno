@@ -3,3 +3,14 @@
     padding: 0;
     margin: 0;
 }
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 42px;
+}
